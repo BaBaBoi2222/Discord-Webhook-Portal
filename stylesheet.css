@@ -1,0 +1,73 @@
+body {
+    background-color: #23272a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  ::placeholder {
+    color: #ffffff;
+  }
+  input[type="text"] {
+    width: 300px;
+    height: 40px;
+    background-color: #99aab5;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 80%;
+  }
+  input[type="password"] {
+    width: 300px;
+    height: 40px;
+    background-color: #99aab5;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 80%;
+  }
+  input:focus {
+    opacity: 100%;
+    transition-duration: 700ms;
+  }
+  input:hover {
+    opacity: 100%;
+    transition-duration: 700ms;
+  }
+  button[type="submit"] {
+    background-color: #7289da;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  button[type="submit"]:hover {
+    background-color: #6076c7;
+    cursor: pointer;
+  }
+  #webb:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+    animation: ease;
+  }
+  #webb {
+    transform: rotate(-360deg);
+    transition-duration: 1.5s;
+    animation: ease;
+  }
