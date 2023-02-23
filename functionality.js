@@ -38,7 +38,7 @@ form.addEventListener('submit', (e) => {
     .then(response => {})
     .then(data => console.log(data))
     .catch(error => console.log(error));
-        }, 1000 * i)
+        }, 2000 * i)
       }
 
   });
