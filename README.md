@@ -11,5 +11,3 @@ Go to https://bababoi2222.github.io/Discord-Webhook-Portal
 or 
 Just download the zip of the code or clone the repository and open `index.html`
 
-## Screenshot
-![Screenshot of the webpage](https://media.discordapp.net/attachments/932507038410473563/1077287328155979826/image.png?width=1390&height=701)
